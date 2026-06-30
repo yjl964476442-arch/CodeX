@@ -1,6 +1,6 @@
 # CodeX
 
-这个仓库用于整理和保存 CodeX/Codex 相关工具模块。
+这个仓库用于整理和保存 CodeX/Codex 相关工具模块，重点放在 Windows 环境、自动化脚本和本地故障修复流程。
 
 ## 模块目录
 
@@ -22,3 +22,28 @@ CodeX/
    ├─ docs/
    └─ scripts/
 ```
+
+## 使用建议
+
+每个模块都保持独立目录：
+
+- `README.md` 说明用途和使用方式
+- `docs/` 保存详细流程
+- `scripts/` 保存可执行脚本
+
+运行脚本前请先阅读对应模块的 README。涉及凭证、令牌或本机配置的文件不要提交到 GitHub。
+
+## 安全说明
+
+不要提交以下内容：
+
+- `.env`
+- `auth.json`
+- `access_token` / `refresh_token`
+- cookie
+- 私钥或密码
+- 含账号凭证的截图或日志
+
+## License
+
+MIT
