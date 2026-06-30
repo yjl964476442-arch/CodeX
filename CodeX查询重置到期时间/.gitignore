@@ -1,0 +1,6 @@
+.codex/
+auth.json
+*.token
+*.cookie
+*.log
+*.tmp
