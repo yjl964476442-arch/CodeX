@@ -1,4 +1,4 @@
-# Codex Windows Sandbox Proxy Fix
+# 修复CodeX模块异常
 
 Use this when Codex on Windows fails during `apply_patch` or sandbox setup because the Windows sandbox helper keeps picking up a local proxy port.
 
